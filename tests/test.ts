@@ -20,7 +20,7 @@ test.describe('Demo Test', () => {
 
         console.log("Browserstack Login Error Message: "+errorMessage);
 
-        expect(errorMessage).toBe('Invalid password');
+        expect(errorMessage).toBe('Invalid password'); //test
 
     });
 
